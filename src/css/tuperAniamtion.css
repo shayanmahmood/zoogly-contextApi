@@ -1,0 +1,52 @@
+#typing-container {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  #typing-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    font-size: 18px;
+  }
+  #user-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  #submit-button {
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .cursor {
+    display: inline-block;
+    width: 8px;
+    height: 18px;
+    background-color: black;
+    animation: blink 0.8s infinite;
+  }
+  @keyframes blink {
+    0%,
+    50%,
+    100% {
+      opacity: 0;
+    }
+    25%,
+    75% {
+      opacity: 1;
+    }
+  }
+  
+  .warm {
+    filter: sepia(50%) contrast(150%) saturate(200%) brightness(100%)
+      hue-rotate(-15deg);
+  }
+  
+  .tint-green{
+    filter: hue-rotate(-30deg) sepia(75%) contrast(150%) saturate(300%) hue-rotate(30deg);
+  }
